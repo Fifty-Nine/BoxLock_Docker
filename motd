@@ -1,0 +1,12 @@
+Welcome to the BoxLock firmware build environment!
+
+The firmware build tree is available at /root/BoxLock_Firmware.
+Dependencies are at /root/pkg.
+
+To build the firmware:
+
+  # cd /root/BoxLock_Firmware
+  # make
+
+To download the firmware to a connected device, first connect
+to the device using OpenOCD, then [magic happens].
